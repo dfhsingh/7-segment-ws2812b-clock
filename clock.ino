@@ -1,3 +1,18 @@
+/*
+Author: Ashok Singh
+
+This code is a combination and customization of below mentioned codes
+
+Reference:
+#1. Instructibles Article and reference code
+https://www.instructables.com/id/RGB-7-segment-Display-Clock-With-WS2812B/
+
+#2.
+Alexander Wilhelmer code for integrating MQTT for use with FastLED
+https://github.com/awilhelmer/esp8266-fastled-mqtt
+
+*/
+
 #define FASTLED_ESP8266_RAW_PIN_ORDER
 #include "FastLED.h"
 #include <NTPClient.h>
